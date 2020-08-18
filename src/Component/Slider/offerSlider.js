@@ -19,12 +19,16 @@ export default class Slider extends Component {
     >
       <SwiperSlide>
           <Link to=''>
-          <img className='slider-img' src='https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2020/8/17/baba2c89-c706-44b1-a7d8-abbad4649fe41597683284959-women-footwear-dk.jpg' alt='company-logo'></img>
+          <div>
+              <img className='offer-slider' src='https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2020/8/14/563014d8-2c85-495f-9b61-9b4ae4ea09b41597417752779-Freecharge_desktop-strips.jpg' alt='image' />
+          </div>
           </Link>
       </SwiperSlide>
       <SwiperSlide>
           <Link to=''>
-          <img className='slider-img' src='https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2020/8/17/1b9af71b-64ee-4736-9ee7-1209740a3f4b1597683284668-MnH_Desk.jpg' alt='company-logo'></img>
+          <div>
+              <img className='offer-slider' src='https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2020/8/14/65f8c96e-2c3d-412a-904c-06435a10662a1597381975341-fedral-bank.jpg' alt='image' />
+          </div>
           </Link>
       </SwiperSlide>
     </Swiper>
